@@ -26,8 +26,8 @@ var (
 )
 
 const (
-	MaxBulkBytesLen = 1024 * 1024 * 512
-	MaxArrayLen     = 1024 * 1024
+	MaxBulkBytesLen = 1024 * 1024 * 2048
+	MaxArrayLen     = 1024 * 1024 * 10
 )
 
 func Btoi64(b []byte) (int64, error) {
